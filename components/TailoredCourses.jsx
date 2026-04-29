@@ -27,11 +27,11 @@ export default function TailoredCourses(){
 
         {/*Heading */}
         <div className="text-center mb-14">
-            <h2 className="text-3xl font-bold">
+            <h2 className="text-2xl md:text-4xl font-bold">
                 Tailored <span className="text-blue-600">Course Segmentation</span>
             </h2>
 
-            <p className="text-gray-600 mt-3 font-medium">Explore <span className="text-blue-600">Custom-fit Courses</span> Designed to Address Every Professional Focus</p>
+            <p className="text-gray-600 mt-3 text-sm md:text-base">Explore <span className="text-blue-600">Custom-fit Courses</span> Designed to Address Every Professional Focus</p>
         </div>
 
         {/*Cards*/}

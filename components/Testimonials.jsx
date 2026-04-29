@@ -23,11 +23,11 @@ export default function Testimonials() {
     <section id="testimonials" className="py-20 bg-gray-50 text-center">
       
       {/* Heading */}
-      <h2 className="text-3xl font-bold">
+      <h2 className="text-2xl md:text-4xl font-bold">
         Testimonials from Our <span className="text-blue-600">Partners</span>
       </h2>
 
-      <p className="text-gray-600 mt-3 mb-12">
+      <p className="text-gray-600 mt-3 text-sm md:text-base mb-12">
         What Our Clients Are Saying
       </p>
 

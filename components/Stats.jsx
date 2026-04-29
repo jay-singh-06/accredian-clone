@@ -4,11 +4,11 @@ export default function Stats(){
    
        {/*Heading*/}
        <div className="text-center mb-12">
-       <h2 className="text-4xl font-bold">
+       <h2 className="text-2xl md:text-4xl font-bold">
         Our 
         <span className="text-blue-600"> Track Record</span>
        </h2>
-       <p className="text-gray-500 text-medium mt-2">
+       <p className="text-gray-500 text-sm md:text-base mt-2">
         The Number Behind 
         <span className="text-blue-600 font-medium"> Our Sucess</span>
        </p>
@@ -25,7 +25,7 @@ export default function Stats(){
         <p className="mt-3 text-sm text-gray-600">Professional Trained</p>
         </div>
         {/*Divider 1*/}
-        <div className="hidden md:block w-px h-16 bg-gray-300"></div>
+        <div className="flex flex-col md:flex-row w-px h-16 bg-gray-300"></div>
 
         {/*card 2*/}
         <div className="text-center">
@@ -36,7 +36,7 @@ export default function Stats(){
         </div>
         {/*Divider 2*/}
 
-        <div className="hidden md:block w-px h-16 bg-gray-300"></div>
+        <div className="flex flex-col md:flex-row w-px h-16 bg-gray-300"></div>
      
         {/*card 3*/}
         <div className="text-center">

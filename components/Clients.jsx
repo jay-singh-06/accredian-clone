@@ -4,8 +4,8 @@ export default function Clients(){
 
             {/*Headings*/}
              <div className="text-center mb-12">
-                <h2 className="text-4xl font-bold">Our Proven <span className="text-blue-600">Partnerships</span></h2>
-                <p className="text-gray-500 text-medium mt-2">
+                <h2 className="text-2xl md:text-4xl font-bold">Our Proven <span className="text-blue-600">Partnerships</span></h2>
+                <p className="text-gray-500 text-sm md:text-base mt-2">
                     Sucessful Collaboration With the  
                      <span className="text-blue-600 font-medium"> Industry's Best</span></p>
              </div>

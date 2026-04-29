@@ -23,11 +23,11 @@ export default function Domain() {
     <section className="py-20 bg-gray-50">
       {/*Heading*/}
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold">
+        <h2 className="text-2xl md:text-4xl font-bold">
           Our <span className="text-blue-600">Domain Expertise</span>{" "}
         </h2>
         <p className="text-medium mt-3 text-gray-600">
-          <span className="text-blue-600 font-medium">
+          <span className="text-blue-600 text-sm md:text-base">
             Specialized Programs
           </span>{" "}
           Designed to Fuel Innovation
@@ -46,7 +46,7 @@ export default function Domain() {
 
                 {/*Icons*/}
                 <div className="flex justify-center mb-4 text-blue-600">
-                    <div className="w-15 h-10 flex items-center justify-center">
+                    <div className="w-16 h-16 flex items-center justify-center">
                     {item.icon}
                     </div>
                 </div>

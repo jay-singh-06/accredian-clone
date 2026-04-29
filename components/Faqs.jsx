@@ -47,7 +47,7 @@ export default function FAQs({onEnquire}) {
       
       {/* Heading */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold">
+        <h2 className="text-2xl md:text-4xl font-bold">
           Frequently Asked{" "}
           <span className="text-blue-600">Questions</span>
         </h2>

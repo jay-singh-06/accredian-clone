@@ -22,13 +22,13 @@ export default function Cat() {
   return (
     <section id="cat" className="py-20 bg-gray text-center">
       {/*Heading */}
-      <h2 className="text-4xl font-bold">
+      <h2 className="text-2xl md:text-4xl font-bold">
         The
         <span className="text-blue-600"> CAT Framework</span>
       </h2>
       <p className="text-gray-600 mt-3 mb-16">
         Our Proven Approach to
-        <span className="text-blue-600 font-medium"> Learning Excellence</span>
+        <span className="text-blue-600 text-sm md:text-base"> Learning Excellence</span>
       </p>
 
       {/*Steps */}

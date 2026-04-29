@@ -51,10 +51,10 @@ export default function Edge() {
     <section id="edge" className="py-20 bg-gray-50 scroll-mt-20">
       {/*Heading*/}
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold">The <span className="text-blue-600">Accredian Edge</span></h2>
+        <h2 className="text-2xl md:text-4xl font-bold">The <span className="text-blue-600">Accredian Edge</span></h2>
         <p className="text-gray-500 text-sm mt-2 max-w-xl mx-auto">
           Key Aspects 
-          <span className="text-blue-600 font-medium">of Our Strategic Training</span>
+          <span className="text-blue-600 text-sm md:text-base">of Our Strategic Training</span>
         </p>
       </div>
 

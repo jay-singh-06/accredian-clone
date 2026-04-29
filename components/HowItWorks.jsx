@@ -23,13 +23,13 @@ export default function HowItWorks() {
     <section id="how" className="py-20 bg-gray-50 text-center">
       
       {/* Heading */}
-      <h2 className="text-3xl font-bold">
+      <h2 className="text-2xl md:text-4xl font-bold">
         How We <span className="text-blue-600">Deliver Results</span> That Matter?
       </h2>
 
       <p className="text-gray-600 mt-3 mb-16">
         A Structured Three-Step Approach to{" "}
-        <span className="text-blue-600 font-medium">Skill Development</span>
+        <span className="text-blue-600 text-sm md:text-base">Skill Development</span>
       </p>
 
       {/* Cards */}
