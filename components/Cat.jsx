@@ -20,8 +20,8 @@ export default function Cat() {
   ];
 
   return (
-    <section id="cat" className="py-20 bg-gray text-center">
-      {/*Heading */}
+    // {/*Heading */}
+      <section id="cat" className="py-16 md:py-20 bg-gray-50 text-center px-4">      
       <h2 className="text-2xl md:text-4xl font-bold">
         The
         <span className="text-blue-600"> CAT Framework</span>
@@ -38,7 +38,7 @@ export default function Cat() {
        <div className="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-blue-200 -translate-y-1/2"></div>
 
         {steps.map((step,index)=>(
-            <div key={index} className="realtive z-10 text-centermax-w-xs">
+            <div key={index} className="relative z-10 text-center max-w-xs">
 
         {/*Circle*/}
          <div className="w-32 h-32 mx-auto rounded-full border-4 border-blue-500 
@@ -50,7 +50,7 @@ export default function Cat() {
 
          {/*Text */}
          <h3 className="mt-6 text-lg font-bold">{step.title}</h3>
-         <p className="text-sm text-gray-500 mt-2">{step.desc}</p>
+         <p className="text-sm text-gray-700 mt-2">{step.desc}</p>
                </div>
 
         ))}

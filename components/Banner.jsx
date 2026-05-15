@@ -4,7 +4,7 @@ export default function Banner({onEnquire}) {
       <div className="bg-gradient-to-r from-blue-600 to-blue-500 rounded-2xl p-10 flex flex-col md:flex-row items-center justify-between gap-6">
         
         {/* LEFT */}
-        <div className="flex items-center gap-5">
+        <div className="flex flex-col sm:flex-row items-center text-center sm:text-left gap-5">
           <div className="bg-white/20 p-4 rounded-xl">
             <span className="text-3xl">🎧</span>
           </div>

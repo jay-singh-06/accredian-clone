@@ -48,11 +48,11 @@ export default function Edge() {
   ];
 
   return (
-    <section id="edge" className="py-20 bg-gray-50 scroll-mt-20">
+    <section id="edge" className="py-20 bg-gray-100 scroll-mt-20">
       {/*Heading*/}
       <div className="text-center mb-16">
         <h2 className="text-2xl md:text-4xl font-bold">The <span className="text-blue-600">Accredian Edge</span></h2>
-        <p className="text-gray-500 text-sm mt-2 max-w-xl mx-auto">
+        <p className="text-gray-800 text-sm mt-2 max-w-xl mx-auto">
           Key Aspects 
           <span className="text-blue-600 text-sm md:text-base">of Our Strategic Training</span>
         </p>
@@ -61,8 +61,7 @@ export default function Edge() {
       <div className="relative max-w-5xl mx-auto">
 
         {/*Items*/}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 relative z-10">
-          {items.map((item, index) => (
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-10 px-4">          {items.map((item, index) => (
             <div key={index} className="text-center">
               {/*circle*/}
               <div
@@ -75,7 +74,7 @@ export default function Edge() {
 
               {/*Text*/}
               <h3 className="mt-4 font-semibold text-sm">{item.title}</h3>
-              <p className="text-xs text-gray-500 mt-2 max-w-[180px] mx-auto">
+              <p className="text-xs text-gray-700 mt-2 max-w-[180px] mx-auto">
                 {item.desc}
               </p>
             </div>

@@ -4,7 +4,7 @@ export default function Footer({onEnquire}) {
       <div className="max-w-6xl mx-auto px-4 py-10">
         
         {/* TOP */}
-        <div className="flex flex-col md:flex-row justify-between items-start gap-8">
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
           
           {/* LEFT */}
           <div>
@@ -30,7 +30,7 @@ export default function Footer({onEnquire}) {
             <button onClick={onEnquire} className="bg-blue-600 text-white cursor-pointer px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition">
               Enquire Now
             </button>
-            <p className="text-sm text-gray-500 mt-2">
+            <p className="text-sm text-gray-700 mt-2">
               Speak with our Advisor
             </p>
           </div>
@@ -69,7 +69,7 @@ export default function Footer({onEnquire}) {
         </div>
 
         {/* COPYRIGHT */}
-        <div className="text-center text-gray-500 text-sm mt-8">
+        <div className="text-center text-gray-700 text-sm mt-8">
           © 2026 Accredian. All Rights Reserved
         </div>
       </div>

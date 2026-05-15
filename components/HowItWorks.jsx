@@ -33,8 +33,7 @@ export default function HowItWorks() {
       </p>
 
       {/* Cards */}
-      <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto px-4">
         {steps.map((step, index) => (
           <div
             key={index}
@@ -60,7 +59,7 @@ export default function HowItWorks() {
             </h3>
 
             {/* Desc */}
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-gray-700">
               {step.desc}
             </p>
 

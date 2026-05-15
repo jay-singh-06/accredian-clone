@@ -20,7 +20,7 @@ export default function Domain() {
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-16 md:py-20 bg-gray-50 px-4">
       {/*Heading*/}
       <div className="text-center mb-12">
         <h2 className="text-2xl md:text-4xl font-bold">
